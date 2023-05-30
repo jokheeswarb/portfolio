@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #424551;
+}
+
+.bg-image{
+    background-image:url(https://www.itl.cat/pngfile/big/327-3274460_web-development.jpg);
+    background-size: cover;
+}
+
+.header{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header .logo a{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px; 
+}
+
+.header .logo a span {
+    color:#E3BC9A;
+    font-size: 45px;
+}
+
+.menubar .menu li{
+    margin: 0 20px;
+}
+
+.menubar .menu li a {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.menubar menu li a:hover{
+    color: #E3BC9A;
+}
+
+.active{
+    color:#e4a56e;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    color: whitesmoke;
+}
+
+.text{
+    width: 50%;
+    float: left;
+    margin: 30px 0 30px 40px;
+}
+
+.text h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 230px 0 5px;
+}
+
+.text h3 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 5px ;
+    line-height: 1;
+    color:#e4a56e;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.text h2{
+    margin: 0 0 5px;
+}
+
+button{
+    background-color: #e29d60;
+    color: whitesmoke;
+    margin-top: 40px;
+    font-size: 19px;
+    border: 1px solid #e29d60;
+    padding: 13px 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: transparent;
+    
+}
